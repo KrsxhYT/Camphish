@@ -1,6 +1,6 @@
 #!/bin/bash
 # CamPhish v2.0
-# Powered by TechChip
+# Powered by Krsxh
 
 # Windows compatibility check
 if [[ "$(uname -a)" == *"MINGW"* ]] || [[ "$(uname -a)" == *"MSYS"* ]] || [[ "$(uname -a)" == *"CYGWIN"* ]] || [[ "$(uname -a)" == *"Windows"* ]]; then
@@ -45,7 +45,6 @@ printf " \e[1;77m YouTube - @TechByKrsxh | Telegram - @KrsxhNvrDie \e[0m \n"
 printf "\n"
 
 
-}
 
 dependencies() {
 command -v php > /dev/null 2>&1 || { echo >&2 "I require php but it's not installed. Install it. Aborting."; exit 1; }
